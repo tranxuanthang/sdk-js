@@ -91,7 +91,7 @@ export function createRenderer(options: Options) {
         md.use(embedPlugin);
     }
 
-    md.use(sanitize, { align: true });
+    md.use(sanitize, { align: true, removeUnbalanced: true });
 
     return md;
 }

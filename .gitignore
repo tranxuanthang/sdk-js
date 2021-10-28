@@ -1,6 +1,4 @@
 node_modules
-dist
 docs
 /.idea
 /*.log
-yarn.lock
